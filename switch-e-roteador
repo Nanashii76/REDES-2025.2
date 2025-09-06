@@ -1,0 +1,31 @@
+Configuração do Switch	
+
+modos:
+- Exec
+- privilegiado
+- config
+
+trocar modos:
+- enable
+- configure terminal
+
+do show ip interface brief ->
+no ip domain lookup ->	
+hostname <name> ->
+
+line console 0 ->
+password <senha> ->
+login ->
+
+copy running-config startup-config ->
+reload ->
+
+banner motd #mensagem# ->
+
+Configuração do roteador:
+
+as mesmas do switch
+
+Acessar interface : interface <nome-da-interface>
+adicionar ip: ip address <ip> <mask>
+ligar interface: no shutdown
