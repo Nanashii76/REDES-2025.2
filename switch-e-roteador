@@ -48,9 +48,13 @@ no shutdown -> no shut ou no sh
 
 ...
 
+## Configurando servidor DHCP
+- colocar endereço IP
+- seção de serviços e ativar o dhcp
+
 ## ligar dois roteadors
 
-porta serial DTE
+porta serial DTE (Adicionar modulo no roteador)
 interface <serial>
 ip address 10.0.0.X 255.255.0.0
 no shutdown
