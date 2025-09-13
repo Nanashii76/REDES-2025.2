@@ -48,6 +48,10 @@ no shutdown -> no shut ou no sh
 
 ...
 
+## ligar dois roteadors
 
-
- 
+porta serial DTE
+interface <serial>
+ip address 10.0.0.X 255.255.0.0
+no shutdown
+ip route <IP DA REDE CONTRÁRIA(192.168.50.0)> <MASCARA DA REDE CONTRARIA(255.255.255.0)> <IP SERIAL DA OUTRA REDE(10.0.0.Y)>
