@@ -29,3 +29,25 @@ as mesmas do switch
 Acessar interface : interface <nome-da-interface>
 adicionar ip: ip address <ip> <mask>
 ligar interface: no shutdown
+
+---
+
+## comandos reduzidos
+
+ip geral das máquinas: 192.168.20.0
+rede2: 192.168.30.0
+
+Comandos reduzido:
+
+enable -> en
+configure terminal -> conf t
+copy running-config startup-config -> we
+reload -> 
+ip address -> ip add
+no shutdown -> no shut ou no sh
+
+...
+
+
+
+ 
