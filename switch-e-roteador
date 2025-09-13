@@ -41,7 +41,7 @@ Comandos reduzido:
 
 enable -> en
 configure terminal -> conf t
-copy running-config startup-config -> we
+copy running-config startup-config -> do wr
 reload -> 
 ip address -> ip add
 no shutdown -> no shut ou no sh
